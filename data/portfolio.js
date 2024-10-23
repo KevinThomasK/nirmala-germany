@@ -239,7 +239,7 @@ export const portfolios3 = [
 export const portfolios4 = [
   {
     id: 26,
-    imageSrc: "/assets/images/germany/iu.jpg",
+    imageSrc: "/assets/images/germany/iuv.jpg",
     title: "IU International University",
     number: "Bad Honnef, Berlin",
     description: "Next Intake Apr/Oct 2025",
@@ -272,7 +272,7 @@ export const portfolios4 = [
   },
   {
     id: 29,
-    imageSrc: "/assets/images/germany/ue.avif",
+    imageSrc: "/assets/images/germany/new.png",
     title: "University Of Europe For Applied Science ",
     number: "Berlin, Hamburg, Potsdam",
     description: "Next Intake Mar/Sep 2025",
