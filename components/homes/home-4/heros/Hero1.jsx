@@ -16,13 +16,13 @@ export default function Hero1() {
     setIsModalOpen(true);
   };
 
-  // useEffect(() => {
-  //   const interval = setInterval(() => {
-  //     setIsModalOpen(true);
-  //   }, 25000); // Open modal every 25 seconds
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      setIsModalOpen(true); // Open modal after 25 seconds
+    }, 25000); // 25 seconds in milliseconds
 
-  //   return () => clearInterval(interval); // Cleanup on unmount
-  // }, []);
+    return () => clearTimeout(timeout); // Cleanup on unmount
+  }, []);
 
   return (
     <>
@@ -35,7 +35,12 @@ export default function Hero1() {
               <div className="w-100 text-center text-lg-start">
                 <h1 className="hs-title-8 mb-40 mb-sm-20 wow fadeInUp">
                   Are you Looking For Best University To Study In{" "}
-                  <span style={{ color: "#CA346B" }}>Germany</span> ?
+                  <span>
+                    <span style={{ color: "black" }}>Ge</span>
+                    <span style={{ color: "#D20004" }}>rma</span>
+                    <span style={{ color: "#FFC50A" }}>ny</span>
+                  </span>
+                  ?
                 </h1>
 
                 <p
@@ -125,6 +130,7 @@ export default function Hero1() {
                     <a
                       href="#services"
                       className="btn btn-mod btn-w btn-with-icon btn-circle"
+                      style={{ background: "black", color: "white" }}
                     >
                       <span className="btn-icon color-3">
                         <i className="mi-user" aria-hidden="true" />
@@ -145,6 +151,7 @@ export default function Hero1() {
                     <a
                       href="#services"
                       className="btn btn-mod btn-w btn-with-icon btn-circle"
+                      style={{ background: "#D20004", color: "white" }}
                     >
                       <span className="btn-icon color-2">
                         <i className="mi-search" aria-hidden="true" />
@@ -165,6 +172,7 @@ export default function Hero1() {
                     <a
                       href="#services"
                       className="btn btn-mod btn-w btn-with-icon btn-circle"
+                      style={{ background: "#FFC50A", color: "black" }}
                     >
                       <span className="btn-icon color-4">
                         <i className="mi-message" aria-hidden="true" />
