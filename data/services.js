@@ -49,7 +49,7 @@ export const services2 = [
     title: "Healthcare",
     text: "Healthcare courses offer essential knowledge and practical skills in medical practices, patient care, and management, preparing individuals for careers in the healthcare industry.",
     categories: [
-      "International Business Heakthcare Management",
+      "IB- Healthcare Management",
       "Public Health",
       "Health And Care Management",
     ],
