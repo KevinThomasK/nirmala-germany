@@ -120,7 +120,7 @@ export default function Home4({ onePage = false, dark = false }) {
       </div>
 
       {/* custom */}
-      <section className="page-section bg-primary-1 bg-color-alpha-90 bg-scroll light-content">
+      <section className="page-section bg-primary-1 bg-color-alpha-90 bg-scroll light-content macs">
         {/* Desktop Overlay */}
         <div className="container">
           <div className="row text-center g-4">
@@ -171,10 +171,63 @@ export default function Home4({ onePage = false, dark = false }) {
         {/* Mobile Overlay */}
         {/* End Mobile Overlay */}
       </section>
+      <section
+        className={`page-section  scrollSpysection  ${
+          dark ? "bg-dark-1 light-content" : ""
+        } `}
+        id="portfolio"
+      >
+        <div className="container position-relative negative-margin-top-sm">
+          <Portfolio />
 
+          <div className="col-md-8 offset-md-2 text-center mb-20">
+            <p className="section-descr mb-0">
+              Check Your Admit Chances Across 20+ Other Universities Partnered
+              With Nirmala Study Abroad
+            </p>
+          </div>
+
+          {/* End Portfolio Grid */}
+          <div className="local-scroll text-center">
+            {onePage ? (
+              <>
+                <button
+                  onClick={openModal}
+                  className={`btn btn-mod ${
+                    dark ? "btn-dark" : "btn-w"
+                  } btn-with-icon btn-circle`}
+                >
+                  <span className="btn-icon color-3">
+                    <i className="mi-link-alt" />
+                  </span>
+                  <span data-btn-animate="y">
+                    <AnimateButton text={"Explore More Universities"} />
+                  </span>
+                </button>
+              </>
+            ) : (
+              <>
+                <Link
+                  href={`/corporate-portfolio${dark ? "-dark" : ""}`}
+                  className={`btn btn-mod ${
+                    dark ? "btn-dark" : "btn-w"
+                  } btn-with-icon btn-circle`}
+                >
+                  <span className="btn-icon color-3">
+                    <i className="mi-link-alt" />
+                  </span>
+                  <span data-btn-animate="y">
+                    <AnimateButton text={"Explore More Universities"} />
+                  </span>
+                </Link>
+              </>
+            )}
+          </div>
+        </div>
+      </section>
       {/* custom end */}
       <section
-        className={`page-section pb-0 scrollSpysection   ${
+        className={`page-section pb-0 scrollSpysection marc  ${
           dark ? "bg-dark-1 light-content" : ""
         } `}
         id="services"
@@ -272,78 +325,13 @@ export default function Home4({ onePage = false, dark = false }) {
 
         {/* End Call to Action Block */}
         {/* Decorative Line */}
-        <div className="bg-line-2 mt-n10 mt-md-20 opacity-025">
-          <Image
-            src="/assets/images/demo-corporate/decoration-3.svg"
-            width={1600}
-            height={243}
-            alt=""
-          />
-        </div>
-      </section>
-      <section
-        className={`page-section  scrollSpysection  ${
-          dark ? "bg-dark-1 light-content" : ""
-        } `}
-        id="portfolio"
-      >
-        <div
-          className="container position-relative negative-margin-top-sm"
-          style={{ marginTop: "-100px" }}
-        >
-          <Portfolio />
-
-          <div className="col-md-8 offset-md-2 text-center mb-20">
-            <p className="section-descr mb-0">
-              Check Your Admit Chances Across 20+ Other Universities Partnered
-              With Nirmala Study Abroad
-            </p>
-          </div>
-
-          {/* End Portfolio Grid */}
-          <div className="local-scroll text-center">
-            {onePage ? (
-              <>
-                <button
-                  onClick={openModal}
-                  className={`btn btn-mod ${
-                    dark ? "btn-dark" : "btn-w"
-                  } btn-with-icon btn-circle`}
-                >
-                  <span className="btn-icon color-3">
-                    <i className="mi-link-alt" />
-                  </span>
-                  <span data-btn-animate="y">
-                    <AnimateButton text={"Explore More Universities"} />
-                  </span>
-                </button>
-              </>
-            ) : (
-              <>
-                <Link
-                  href={`/corporate-portfolio${dark ? "-dark" : ""}`}
-                  className={`btn btn-mod ${
-                    dark ? "btn-dark" : "btn-w"
-                  } btn-with-icon btn-circle`}
-                >
-                  <span className="btn-icon color-3">
-                    <i className="mi-link-alt" />
-                  </span>
-                  <span data-btn-animate="y">
-                    <AnimateButton text={"Explore More Universities"} />
-                  </span>
-                </Link>
-              </>
-            )}
-          </div>
-        </div>
       </section>
 
       <section
-        className={`page-section  scrollSpysection  ${
+        className={`page-section  scrollSpysection ${
           dark ? "bg-dark-1 light-content" : ""
         } `}
-        style={{ marginTop: "-100px" }}
+        style={{ marginTop: "-70px" }}
         id="clients-stories"
       >
         <Testimonials />

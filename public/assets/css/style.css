@@ -14933,6 +14933,15 @@ html:not(.mobile) .owl-animate-fadeInDown {
   font-size: 16px;
 }
 
+.macs {
+  margin-bottom: 200px;
+}
+
+.marc {
+  margin-top: -130px;
+}
+
+
 @media (max-width: 700px) {
 
 
@@ -14942,6 +14951,14 @@ html:not(.mobile) .owl-animate-fadeInDown {
     max-width: 188px;
     height: var(--menu-bar-height);
     transition: all 0.2s cubic-bezier(0, 0, 0.58, 1);
+  }
+
+  .macs {
+    margin-bottom: 50px;
+  }
+
+  .marc {
+    margin-top: 0px;
   }
 }
 
