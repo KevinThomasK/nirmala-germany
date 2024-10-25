@@ -3,11 +3,11 @@ import React, { useState } from "react";
 
 import Service from "./Service";
 import Portfolio from "./Portfolio";
-import Steps from "./Steps";
+//import Steps from "./Steps";
 import Testimonials from "./Testimonials";
-import Cta2 from "./Cta2";
-import Blog from "../home-4/Blog";
-import NewsLetter from "./NewsLetter";
+//import Cta2 from "./Cta2";
+//import Blog from "../home-4/Blog";
+//import NewsLetter from "./NewsLetter";
 import Contact from "./Contact";
 import AnimateButton from "@/components/common/AnimateButton";
 import Link from "next/link";

@@ -1,4 +1,4 @@
-import Footer3 from "@/components/footers/Footer3";
+//import Footer3 from "@/components/footers/Footer3";
 import Footer4 from "@/components/footers/Footer4";
 import Header4 from "@/components/headers/Header4";
 import Home4 from "@/components/homes/home-4";
