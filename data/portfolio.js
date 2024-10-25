@@ -238,6 +238,56 @@ export const portfolios3 = [
 
 export const portfolios4 = [
   {
+    id: 20,
+    imageSrc: "/assets/images/germany/hamburg.jpg",
+    title: "University Of Hamburg",
+    number: "Hamburg",
+    description: "2025 Inteakes Open Now",
+    description2: "Get Scholarships Upto 100%",
+  },
+  {
+    id: 21,
+    imageSrc: "/assets/images/germany/fu.jpg",
+    title: "FU Berlin University",
+    number: "Berlin",
+    description: "2025 Inteakes Open Now",
+    description2: "Get Scholarships Upto 100%",
+  },
+
+  {
+    id: 22,
+    imageSrc: "/assets/images/germany/bu.jpg",
+    title: "BU Weimar",
+    number: "Weimar",
+    description: "2025 Inteakes Open Now",
+    description2: "Get Scholarships Upto 100%",
+  },
+  {
+    id: 23,
+    imageSrc: "/assets/images/germany/tu.jpg",
+    title: "Technical University Dresden",
+    number: "Dresden",
+    description: "2025 Inteakes Open Now",
+    description2: "Get Scholarships Upto 100%",
+  },
+  {
+    id: 24,
+    imageSrc: "/assets/images/germany/colo.jpg",
+    title: "University Of Cologne",
+    number: "Cologne ",
+    description: "2025 Inteakes Open Now",
+    description2: "Get Scholarships Upto 100%",
+  },
+
+  {
+    id: 25,
+    imageSrc: "/assets/images/germany/leip.jpg",
+    title: "University Of Leipzeg",
+    number: "Leipzig",
+    description: "2025 Inteakes Open Now",
+    description2: "Get Scholarships Upto 100%",
+  },
+  {
     id: 26,
     imageSrc: "/assets/images/germany/iuv.jpg",
     title: "IU International University",
@@ -261,31 +311,6 @@ export const portfolios4 = [
     number: "Berlin",
     description: "Next Intake Mar/Oct 2025",
     description2: "Courses From ₹ 8 Lakhs Onwards",
-  },
-  {
-    id: 28,
-    imageSrc: "/assets/images/germany/srh.jpg",
-    title: "SRH University",
-    number: "Heidelberg, Hamburg, Berlin, Dresden",
-    description: "Next Intake Apr/Oct 2025",
-    description2: "Courses From ₹ 8 Lakhs Onwards",
-  },
-  {
-    id: 29,
-    imageSrc: "/assets/images/germany/new.png",
-    title: "University Of Europe For Applied Science ",
-    number: "Berlin, Hamburg, Potsdam",
-    description: "Next Intake Mar/Sep 2025",
-    description2: "Courses From ₹ 9 Lakhs Onwards",
-  },
-  {
-    id: 30,
-
-    imageSrc: "/assets/images/germany/md.jpg",
-    title: "Media Design University",
-    number: "Berlin",
-    description: "Next Intake Apr/Oct 2025",
-    description2: "Courses From ₹ 11 Lakhs Onwards",
   },
 ];
 
