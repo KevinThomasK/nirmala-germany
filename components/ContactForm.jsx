@@ -12,7 +12,7 @@ const ContactForm = () => {
   });
   const [ipAddress, setIpAddress] = useState("");
   const [sourceUrl, setSourceUrl] = useState("");
-  const router = useRouter(); // To handle redirection
+  const router = useRouter();
 
   // Get the user's IP address
   const fetchIpAddress = async () => {
@@ -40,7 +40,7 @@ const ContactForm = () => {
   const handleSubmit = async () => {
     if (!formData.name || !formData.phone) {
       alert("Please fill in both your name and phone number.");
-      return; // Do not proceed if validation fails
+      return;
     }
     try {
       const response = await axios.post(
@@ -51,8 +51,8 @@ const ContactForm = () => {
           email: formData.email,
           location: null,
           company_name: "Nirmala",
-          lead_types_id: "nirmala_ireland",
-          requirement: "",
+          lead_types_id: "nirmala_germany",
+          requirement: formData.whatsapp,
           ip_address: ipAddress, // Set IP address from API
           source_url: sourceUrl, // Set source URL
           source_app: null,
@@ -68,7 +68,7 @@ const ContactForm = () => {
       );
 
       if (response.status === 200) {
-        router.push("thank-you"); // Redirect to the Thank You page on success
+        router.push("/study-in-germany/thank-you");
       } else {
         alert("Failed to submit the form.");
       }

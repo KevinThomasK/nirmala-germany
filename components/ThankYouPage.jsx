@@ -10,7 +10,7 @@ const ThankYou = () => {
   // Redirect back to the home page after a few seconds if needed
   useEffect(() => {
     const timer = setTimeout(() => {
-      router.push("/");
+      router.push("/study-in-germany");
     }, 10000);
 
     return () => clearTimeout(timer); // Cleanup timer
