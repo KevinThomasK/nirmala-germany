@@ -259,7 +259,7 @@ export const portfolios4 = [
     imageSrc: "/assets/images/germany/bu.jpg",
     title: "BU Weimar",
     number: "Weimar",
-    description: "2025 Inteakes Open Now",
+    description: "2025 Intakes Open Now",
     description2: "Get Scholarships Upto 100%",
   },
   {
@@ -267,7 +267,7 @@ export const portfolios4 = [
     imageSrc: "/assets/images/germany/tu.jpg",
     title: "Technical University Dresden",
     number: "Dresden",
-    description: "2025 Inteakes Open Now",
+    description: "2025 Intakes Open Now",
     description2: "Get Scholarships Upto 100%",
   },
   {
@@ -275,7 +275,7 @@ export const portfolios4 = [
     imageSrc: "/assets/images/germany/colo.jpg",
     title: "University Of Cologne",
     number: "Cologne ",
-    description: "2025 Inteakes Open Now",
+    description: "2025 Intakes Open Now",
     description2: "Get Scholarships Upto 100%",
   },
 
@@ -284,7 +284,7 @@ export const portfolios4 = [
     imageSrc: "/assets/images/germany/leip.jpg",
     title: "University Of Leipzeg",
     number: "Leipzig",
-    description: "2025 Inteakes Open Now",
+    description: "2025 Intakes Open Now",
     description2: "Get Scholarships Upto 100%",
   },
   {
@@ -306,11 +306,11 @@ export const portfolios4 = [
 
   {
     id: 27,
-    imageSrc: "/assets/images/germany/mac.jpg",
-    title: "Macromedia University",
-    number: "Berlin",
-    description: "Next Intake Mar/Oct 2025",
-    description2: "Courses From ₹ 8 Lakhs Onwards",
+    imageSrc: "/assets/images/germany/srh.jpg",
+    title: "SRH University",
+    number: "Heidelberg,Hamburg,Berlin,Dresden",
+    description: "Next Intake Apr/Oct 2025",
+    description2: "Courses From ₹ 9 Lakhs Onwards",
   },
 ];
 
