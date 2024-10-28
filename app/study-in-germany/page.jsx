@@ -8,9 +8,9 @@ import StickyContactModal from "@/components/stickymodal";
 import WhatsappIcon from "@/components/whatsappicon";
 
 export const metadata = {
-  title: "Study In Germany",
+  title: "Study In Germany-Contact Nirmala Study Abroad Today",
   description:
-    "Find The Top Universities In Germany Which Will Give You An Admit. Book A Free Counselling Now.",
+    "Find the best universities in Germany offering up to 100% scholarships with our expert guidance",
 };
 export default function Home4MainDemoOnepage() {
   return (

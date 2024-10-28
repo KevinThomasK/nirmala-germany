@@ -98,7 +98,7 @@ export const testimonials4 = [
     stars: 4.5,
     text: "Samuel Louis",
     caption: "Leipzig University ",
-    image: "/assets/images/germany/s2.jpg",
+    image: "/assets/images/germany/c1.jpg",
   },
   {
     id: 2,
@@ -106,7 +106,7 @@ export const testimonials4 = [
     stars: 4.5,
     text: "Merlin Joseph",
     caption: "Hamburg University of Technology",
-    image: "/assets/images/germany/s1.jpg",
+    image: "/assets/images/germany/c5.jpg",
   },
   {
     id: 3,
@@ -114,7 +114,7 @@ export const testimonials4 = [
     stars: 4.5,
     text: "Chandralekha K",
     caption: "University Of Greifswald ",
-    image: "/assets/images/germany/s4.jpg",
+    image: "/assets/images/germany/c2.jpg",
   },
   {
     id: 4,
@@ -122,7 +122,7 @@ export const testimonials4 = [
     stars: 4.5,
     text: "Abhirami Binu",
     caption: "Leipzig University ",
-    image: "/assets/images/germany/s6.jpg",
+    image: "/assets/images/germany/c6.jpg",
   },
   {
     id: 5,
@@ -130,7 +130,7 @@ export const testimonials4 = [
     stars: 4.5,
     text: "John Peter",
     caption: "University of Bauhaus weimar",
-    image: "/assets/images/germany/s3.jpg",
+    image: "/assets/images/germany/c3.jpg",
   },
   {
     id: 6,
@@ -138,7 +138,7 @@ export const testimonials4 = [
     stars: 4.5,
     text: "Ann Luvis",
     caption: "University of Europe for Applied Science",
-    image: "/assets/images/germany/s5.jpg",
+    image: "/assets/images/germany/c4.jpg",
   },
 ];
 
